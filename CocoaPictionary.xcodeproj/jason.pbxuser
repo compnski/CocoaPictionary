@@ -19,14 +19,28 @@
 			scores,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					538,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					728,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -39,6 +53,22 @@
 					PBXFileDataSource_Errors_ColumnID,
 					PBXFileDataSource_Warnings_ColumnID,
 					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					668,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
 				);
 			};
 			PBXPerProjectTemplateStateSaveDate = 277455021;
@@ -679,6 +709,39 @@
 			96D262341089EE24002B9C19 /* PBXTextBookmark */ = 96D262341089EE24002B9C19 /* PBXTextBookmark */;
 			96D262351089EE24002B9C19 /* PBXTextBookmark */ = 96D262351089EE24002B9C19 /* PBXTextBookmark */;
 			96D262361089EE24002B9C19 /* PBXTextBookmark */ = 96D262361089EE24002B9C19 /* PBXTextBookmark */;
+			96D2625D1089EFF6002B9C19 /* PBXTextBookmark */ = 96D2625D1089EFF6002B9C19 /* PBXTextBookmark */;
+			96D2625E1089EFF6002B9C19 /* PBXTextBookmark */ = 96D2625E1089EFF6002B9C19 /* PBXTextBookmark */;
+			96D2625F1089EFF6002B9C19 /* PBXTextBookmark */ = 96D2625F1089EFF6002B9C19 /* PBXTextBookmark */;
+			96D262601089EFF6002B9C19 /* PBXTextBookmark */ = 96D262601089EFF6002B9C19 /* PBXTextBookmark */;
+			96D262611089EFF6002B9C19 /* PBXTextBookmark */ = 96D262611089EFF6002B9C19 /* PBXTextBookmark */;
+			96D262791089F359002B9C19 /* PBXTextBookmark */ = 96D262791089F359002B9C19 /* PBXTextBookmark */;
+			96D2627A1089F359002B9C19 /* PBXTextBookmark */ = 96D2627A1089F359002B9C19 /* PBXTextBookmark */;
+			96D2627B1089F359002B9C19 /* PBXTextBookmark */ = 96D2627B1089F359002B9C19 /* PBXTextBookmark */;
+			96D2627C1089F359002B9C19 /* PBXTextBookmark */ = 96D2627C1089F359002B9C19 /* PBXTextBookmark */;
+			96D2627D1089F359002B9C19 /* PBXTextBookmark */ = 96D2627D1089F359002B9C19 /* PBXTextBookmark */;
+			96D2627E1089F359002B9C19 /* PBXTextBookmark */ = 96D2627E1089F359002B9C19 /* PBXTextBookmark */;
+			96D2627F1089F359002B9C19 /* PBXTextBookmark */ = 96D2627F1089F359002B9C19 /* PBXTextBookmark */;
+			96D262801089F359002B9C19 /* PBXTextBookmark */ = 96D262801089F359002B9C19 /* PBXTextBookmark */;
+			96D262811089F359002B9C19 /* PlistBookmark */ = 96D262811089F359002B9C19 /* PlistBookmark */;
+			96D262821089F359002B9C19 /* PBXTextBookmark */ = 96D262821089F359002B9C19 /* PBXTextBookmark */;
+			96D262831089F359002B9C19 /* PBXTextBookmark */ = 96D262831089F359002B9C19 /* PBXTextBookmark */;
+			96D262841089F359002B9C19 /* PBXTextBookmark */ = 96D262841089F359002B9C19 /* PBXTextBookmark */;
+			96D262851089F359002B9C19 /* PBXTextBookmark */ = 96D262851089F359002B9C19 /* PBXTextBookmark */;
+			96D262861089F359002B9C19 /* PBXTextBookmark */ = 96D262861089F359002B9C19 /* PBXTextBookmark */;
+			96D262871089F359002B9C19 /* PBXTextBookmark */ = 96D262871089F359002B9C19 /* PBXTextBookmark */;
+			96D262881089F359002B9C19 /* PBXTextBookmark */ = 96D262881089F359002B9C19 /* PBXTextBookmark */;
+			96D262891089F359002B9C19 /* PBXTextBookmark */ = 96D262891089F359002B9C19 /* PBXTextBookmark */;
+			96D2628A1089F359002B9C19 /* PBXTextBookmark */ = 96D2628A1089F359002B9C19 /* PBXTextBookmark */;
+			96D2628B1089F359002B9C19 /* PBXTextBookmark */ = 96D2628B1089F359002B9C19 /* PBXTextBookmark */;
+			96D2628C1089F359002B9C19 /* PlistBookmark */ = 96D2628C1089F359002B9C19 /* PlistBookmark */;
+			96D2628D1089F359002B9C19 /* PBXTextBookmark */ = 96D2628D1089F359002B9C19 /* PBXTextBookmark */;
+			96D2628E1089F359002B9C19 /* PBXTextBookmark */ = 96D2628E1089F359002B9C19 /* PBXTextBookmark */;
+			96D262951089F44E002B9C19 /* PlistBookmark */ = 96D262951089F44E002B9C19 /* PlistBookmark */;
+			96D262961089F44E002B9C19 /* PBXTextBookmark */ = 96D262961089F44E002B9C19 /* PBXTextBookmark */;
+			96D262971089F44E002B9C19 /* PlistBookmark */ = 96D262971089F44E002B9C19 /* PlistBookmark */;
+			96D262981089F44E002B9C19 /* PBXTextBookmark */ = 96D262981089F44E002B9C19 /* PBXTextBookmark */;
+			96D262991089F44E002B9C19 /* PBXTextBookmark */ = 96D262991089F44E002B9C19 /* PBXTextBookmark */;
+			96D2629A1089F44E002B9C19 /* PBXTextBookmark */ = 96D2629A1089F44E002B9C19 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 96D25DF01089A0B3002B9C19 /* Source Control */;
 		userBuildSettings = {
@@ -696,6 +759,11 @@
 		executables = (
 			96D25DE21089A0AD002B9C19 /* CocoaPictionary */,
 		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, -5}, {1128, 878}}";
+		};
 	};
 	96D25DE21089A0AD002B9C19 /* CocoaPictionary */ = {
 		isa = PBXExecutable;
@@ -765,7 +833,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 280}}";
 			sepNavSelRange = "{345, 0}";
-			sepNavVisRange = "{3, 348}";
+			sepNavVisRange = "{0, 351}";
 			sepNavWindowFrame = "{{292, 0}, {1128, 878}}";
 		};
 	};
@@ -773,7 +841,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1069, 1862}}";
 			sepNavSelRange = "{703, 0}";
-			sepNavVisRange = "{3, 1151}";
+			sepNavVisRange = "{3, 1097}";
 			sepNavWindowFrame = "{{178, -592}, {1128, 746}}";
 		};
 	};
@@ -786,17 +854,17 @@
 	};
 	96D25DF71089A0E7002B9C19 /* MyPoint.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1069, 595}}";
-			sepNavSelRange = "{175, 0}";
-			sepNavVisRange = "{0, 582}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 588}}";
+			sepNavSelRange = "{524, 0}";
+			sepNavVisRange = "{408, 174}";
 			sepNavWindowFrame = "{{15, 127}, {1128, 746}}";
 		};
 	};
 	96D25E1A1089ABB0002B9C19 /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 826}}";
-			sepNavSelRange = "{382, 38}";
-			sepNavVisRange = "{189, 266}";
+			sepNavIntBoundsRect = "{{0, 0}, {439, 798}}";
+			sepNavSelRange = "{400, 28}";
+			sepNavVisRange = "{189, 312}";
 			sepNavWindowFrame = "{{136, 132}, {1128, 746}}";
 		};
 	};
@@ -804,7 +872,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1069, 3444}}";
 			sepNavSelRange = "{2099, 0}";
-			sepNavVisRange = "{1743, 922}";
+			sepNavVisRange = "{1743, 857}";
 			sepNavWindowFrame = "{{130, 22}, {1128, 746}}";
 		};
 	};
@@ -834,7 +902,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 420}}";
 			sepNavSelRange = "{422, 0}";
-			sepNavVisRange = "{165, 341}";
+			sepNavVisRange = "{45, 336}";
 			sepNavWindowFrame = "{{544, -54}, {1128, 746}}";
 		};
 	};
@@ -909,7 +977,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 22";
 		rLen = 0;
-		rLoc = 801;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 297;
@@ -1169,7 +1237,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 16";
 		rLen = 0;
-		rLoc = 1173;
+		rLoc = 1181;
 		rType = 0;
 		vrLen = 267;
 		vrLoc = 43;
@@ -1199,7 +1267,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 927;
+		rLoc = 935;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 46;
@@ -1229,7 +1297,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 182;
-		rLoc = 845;
+		rLoc = 853;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 46;
@@ -1249,7 +1317,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 22";
 		rLen = 0;
-		rLoc = 801;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 297;
@@ -1269,7 +1337,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 22";
 		rLen = 0;
-		rLoc = 801;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 0;
@@ -1307,7 +1375,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 0;
@@ -1337,7 +1405,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 24";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 0;
@@ -1385,7 +1453,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 343;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 297;
 		vrLoc = 133;
@@ -1523,7 +1591,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 11";
 		rLen = 0;
-		rLoc = 343;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 288;
 		vrLoc = 133;
@@ -1541,7 +1609,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 11";
 		rLen = 0;
-		rLoc = 343;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 288;
 		vrLoc = 133;
@@ -1591,7 +1659,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 10";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -1641,7 +1709,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 10";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -1889,7 +1957,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 25";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 162;
@@ -1909,7 +1977,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 25";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 0;
@@ -1929,7 +1997,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -1949,7 +2017,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 27";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 0;
@@ -1969,7 +2037,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -1989,7 +2057,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2017,7 +2085,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2037,7 +2105,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2073,7 +2141,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2113,7 +2181,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2141,7 +2209,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2181,7 +2249,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2199,7 +2267,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2239,7 +2307,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2249,7 +2317,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2289,7 +2357,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2299,7 +2367,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2309,7 +2377,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2349,7 +2417,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2379,7 +2447,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2399,7 +2467,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2419,7 +2487,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2495,7 +2563,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2525,7 +2593,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2553,7 +2621,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2583,7 +2651,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2603,7 +2671,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2633,7 +2701,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2671,7 +2739,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 447;
 		vrLoc = 190;
@@ -2701,7 +2769,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2721,7 +2789,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2751,7 +2819,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2787,7 +2855,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2817,7 +2885,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2847,7 +2915,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2877,7 +2945,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2897,7 +2965,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2927,7 +2995,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2947,7 +3015,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 190;
@@ -2977,7 +3045,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -2997,7 +3065,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 31";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 405;
 		vrLoc = 491;
@@ -3027,7 +3095,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 38";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -3047,7 +3115,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 31";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 405;
 		vrLoc = 491;
@@ -3077,7 +3145,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 38";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -3097,7 +3165,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 31";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 405;
 		vrLoc = 491;
@@ -3127,7 +3195,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 38";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -3147,7 +3215,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 31";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 461;
@@ -3177,7 +3245,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -3197,7 +3265,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 31";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 461;
@@ -3227,7 +3295,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -3255,7 +3323,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 31";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 416;
 		vrLoc = 133;
@@ -3285,7 +3353,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 37";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -3305,7 +3373,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 700;
+		rLoc = 708;
 		rType = 0;
 		vrLen = 455;
 		vrLoc = 215;
@@ -3335,7 +3403,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 38";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 0;
@@ -3371,7 +3439,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 39";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 521;
@@ -3391,7 +3459,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 38";
 		rLen = 0;
-		rLoc = 1097;
+		rLoc = 1105;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 0;
@@ -3421,7 +3489,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 453;
 		vrLoc = 521;
@@ -3441,7 +3509,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 33";
 		rLen = 0;
-		rLoc = 866;
+		rLoc = 874;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 0;
@@ -3471,7 +3539,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 449;
 		vrLoc = 521;
@@ -3481,7 +3549,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 32";
 		rLen = 0;
-		rLoc = 833;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 0;
@@ -3529,7 +3597,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 438;
 		vrLoc = 521;
@@ -3539,7 +3607,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 3;
@@ -3587,7 +3655,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 438;
 		vrLoc = 521;
@@ -3607,7 +3675,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3637,7 +3705,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3667,7 +3735,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3725,7 +3793,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3755,7 +3823,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3775,7 +3843,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3805,7 +3873,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3825,7 +3893,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3855,7 +3923,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3875,7 +3943,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3905,7 +3973,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3925,7 +3993,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 41";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3945,7 +4013,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 40";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -3975,7 +4043,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 42";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -3985,7 +4053,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 29";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -4025,7 +4093,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 42";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4045,7 +4113,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 29";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -4075,7 +4143,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4095,7 +4163,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4115,7 +4183,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4135,7 +4203,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4155,7 +4223,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4175,7 +4243,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4195,7 +4263,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4215,7 +4283,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4235,7 +4303,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4255,7 +4323,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4275,7 +4343,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4295,7 +4363,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4315,7 +4383,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 43";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4335,7 +4403,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 30";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 808;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 0;
@@ -4355,7 +4423,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 45";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4365,7 +4433,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 44";
 		rLen = 0;
-		rLoc = 1097;
+		rLoc = 1105;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 43;
@@ -4403,7 +4471,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 45";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4423,7 +4491,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 44";
 		rLen = 0;
-		rLoc = 1097;
+		rLoc = 1105;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 43;
@@ -4443,7 +4511,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 45";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4463,7 +4531,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 44";
 		rLen = 0;
-		rLoc = 1097;
+		rLoc = 1105;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 43;
@@ -4483,7 +4551,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 45";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 137;
@@ -4503,7 +4571,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 44";
 		rLen = 0;
-		rLoc = 1097;
+		rLoc = 1105;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 43;
@@ -4523,7 +4591,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4543,7 +4611,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 43;
@@ -4563,7 +4631,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4583,7 +4651,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 43;
@@ -4603,7 +4671,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4623,7 +4691,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 43;
@@ -4643,7 +4711,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4663,7 +4731,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 43;
@@ -4683,7 +4751,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4703,7 +4771,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 43;
@@ -4757,7 +4825,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4777,7 +4845,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -4797,7 +4865,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4817,7 +4885,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -4837,7 +4905,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4857,7 +4925,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -4877,7 +4945,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4897,7 +4965,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -4921,7 +4989,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4931,7 +4999,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -4951,7 +5019,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -4989,7 +5057,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -5009,7 +5077,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -5039,7 +5107,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -5059,7 +5127,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -5089,7 +5157,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -5109,7 +5177,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -5139,7 +5207,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 137;
@@ -5169,7 +5237,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 13";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 136;
@@ -5217,7 +5285,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 137;
@@ -5227,7 +5295,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 49";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 137;
@@ -5257,7 +5325,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 21";
 		rLen = 0;
-		rLoc = 410;
+		rLoc = 418;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 133;
@@ -5325,7 +5393,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 12";
 		rLen = 0;
-		rLoc = 218;
+		rLoc = 236;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 133;
@@ -5405,7 +5473,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 12";
 		rLen = 0;
-		rLoc = 218;
+		rLoc = 236;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 133;
@@ -5485,7 +5553,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 12";
 		rLen = 0;
-		rLoc = 218;
+		rLoc = 236;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 133;
@@ -5590,8 +5658,8 @@
 		isa = PBXTextBookmark;
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 22";
-		rLen = 38;
-		rLoc = 382;
+		rLen = 28;
+		rLoc = 400;
 		rType = 0;
 		vrLen = 304;
 		vrLoc = 189;
@@ -5625,7 +5693,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -5695,7 +5763,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -5765,7 +5833,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -5835,7 +5903,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -5905,7 +5973,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -5975,7 +6043,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -6045,7 +6113,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -6115,7 +6183,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 50";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 137;
@@ -6175,7 +6243,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 26";
 		rLen = 0;
-		rLoc = 563;
+		rLoc = 571;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 137;
@@ -6255,7 +6323,7 @@
 		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
 		name = "AppController.h: 53";
 		rLen = 0;
-		rLoc = 1201;
+		rLoc = 1209;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 219;
@@ -7074,6 +7142,371 @@
 		rLoc = 2099;
 		rType = 0;
 		vrLen = 922;
+		vrLoc = 1743;
+	};
+	96D262381089EE54002B9C19 /* TabletApplication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {906, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1058}";
+		};
+	};
+	96D262391089EE54002B9C19 /* TabletApplication.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 2856}}";
+			sepNavSelRange = "{1595, 0}";
+			sepNavVisRange = "{835, 1600}";
+			sepNavWindowFrame = "{{15, -5}, {1128, 878}}";
+		};
+	};
+	96D262531089EF17002B9C19 /* WTView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {906, 1120}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{471, 587}";
+		};
+	};
+	96D262541089EF17002B9C19 /* WTView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {906, 10472}}";
+			sepNavSelRange = "{10714, 15}";
+			sepNavVisRange = "{9910, 1088}";
+		};
+	};
+	96D2625D1089EFF6002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E331089BF29002B9C19 /* PictionaryModel.h */;
+		name = "PictionaryModel.h: 24";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 45;
+	};
+	96D2625E1089EFF6002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E331089BF29002B9C19 /* PictionaryModel.h */;
+		name = "PictionaryModel.h: 24";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 45;
+	};
+	96D2625F1089EFF6002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF31089A0DE002B9C19 /* MyViewController.h */;
+		name = "MyViewController.h: 18";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 3;
+	};
+	96D262601089EFF6002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF41089A0DE002B9C19 /* MyViewController.m */;
+		name = "MyViewController.m: 33";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 3;
+	};
+	96D262611089EFF6002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E1B1089ABB0002B9C19 /* AppController.m */;
+		name = "AppController.m: 87";
+		rLen = 0;
+		rLoc = 2099;
+		rType = 0;
+		vrLen = 922;
+		vrLoc = 1743;
+	};
+	96D262791089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF71089A0E7002B9C19 /* MyPoint.m */;
+		name = "MyPoint.m: 33";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 174;
+		vrLoc = 408;
+	};
+	96D2627A1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF41089A0DE002B9C19 /* MyViewController.m */;
+		name = "MyViewController.m: 125";
+		rLen = 0;
+		rLoc = 3405;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 2254;
+	};
+	96D2627B1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF31089A0DE002B9C19 /* MyViewController.h */;
+		name = "MyViewController.h: 18";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	96D2627C1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E331089BF29002B9C19 /* PictionaryModel.h */;
+		name = "PictionaryModel.h: 24";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 45;
+	};
+	96D2627D1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
+		name = "AppController.h: 12";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 161;
+	};
+	96D2627E1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262531089EF17002B9C19 /* WTView.h */;
+		name = "WTView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 471;
+	};
+	96D2627F1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262541089EF17002B9C19 /* WTView.m */;
+		name = "WTView.m: 341";
+		rLen = 15;
+		rLoc = 10714;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 9910;
+	};
+	96D262801089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262391089EE54002B9C19 /* TabletApplication.m */;
+		name = "TabletApplication.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 1045;
+	};
+	96D262811089F359002B9C19 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = "/Users/jason/Documents/projects/CocoaPictionary/Cocoa Pictionary-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	96D262821089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF31089A0DE002B9C19 /* MyViewController.h */;
+		name = "MyViewController.h: 18";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	96D262831089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF71089A0E7002B9C19 /* MyPoint.m */;
+		name = "MyPoint.m: 33";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 174;
+		vrLoc = 408;
+	};
+	96D262841089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF41089A0DE002B9C19 /* MyViewController.m */;
+		name = "MyViewController.m: 125";
+		rLen = 0;
+		rLoc = 3405;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 2254;
+	};
+	96D262851089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF31089A0DE002B9C19 /* MyViewController.h */;
+		name = "MyViewController.h: 18";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	96D262861089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E331089BF29002B9C19 /* PictionaryModel.h */;
+		name = "PictionaryModel.h: 24";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 45;
+	};
+	96D262871089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E1A1089ABB0002B9C19 /* AppController.h */;
+		name = "AppController.h: 12";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 161;
+	};
+	96D262881089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262541089EF17002B9C19 /* WTView.m */;
+		name = "WTView.m: 395";
+		rLen = 0;
+		rLoc = 12660;
+		rType = 0;
+		vrLen = 1277;
+		vrLoc = 11227;
+	};
+	96D262891089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262531089EF17002B9C19 /* WTView.h */;
+		name = "WTView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 471;
+	};
+	96D2628A1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262541089EF17002B9C19 /* WTView.m */;
+		name = "WTView.m: 341";
+		rLen = 15;
+		rLoc = 10714;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 9910;
+	};
+	96D2628B1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262391089EE54002B9C19 /* TabletApplication.m */;
+		name = "TabletApplication.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 1045;
+	};
+	96D2628C1089F359002B9C19 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = "/Users/jason/Documents/projects/CocoaPictionary/Cocoa Pictionary-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	96D2628D1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF41089A0DE002B9C19 /* MyViewController.m */;
+		name = "MyViewController.m: 33";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 3;
+	};
+	96D2628E1089F359002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E1B1089ABB0002B9C19 /* AppController.m */;
+		name = "AppController.m: 87";
+		rLen = 0;
+		rLoc = 2099;
+		rType = 0;
+		vrLen = 922;
+		vrLoc = 1743;
+	};
+	96D262951089F44E002B9C19 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jason/Documents/projects/CocoaPictionary/Cocoa Pictionary-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	96D262961089F44E002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262381089EE54002B9C19 /* TabletApplication.h */;
+		name = "TabletApplication.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 0;
+	};
+	96D262971089F44E002B9C19 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jason/Documents/projects/CocoaPictionary/Cocoa Pictionary-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	96D262981089F44E002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D262381089EE54002B9C19 /* TabletApplication.h */;
+		name = "TabletApplication.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 0;
+	};
+	96D262991089F44E002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25DF41089A0DE002B9C19 /* MyViewController.m */;
+		name = "MyViewController.m: 33";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 3;
+	};
+	96D2629A1089F44E002B9C19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96D25E1B1089ABB0002B9C19 /* AppController.m */;
+		name = "AppController.m: 87";
+		rLen = 0;
+		rLoc = 2099;
+		rType = 0;
+		vrLen = 857;
 		vrLoc = 1743;
 	};
 }

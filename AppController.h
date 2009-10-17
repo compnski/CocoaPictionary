@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "PictionaryModel.h"
 #import "MyViewController.h"
-
+#import "WTView.h"
 
 #define GAME_LENGTH 5
 typedef enum appState
@@ -19,7 +19,7 @@ typedef enum appState
 
 
 @interface AppController : NSObject {
-	IBOutlet MyViewController *drawArea;
+	IBOutlet WTView *drawArea;
 	IBOutlet NSTextField *timerLabel;
 	IBOutlet NSTextField *statusMessage;
 	IBOutlet NSTextField *answerField;

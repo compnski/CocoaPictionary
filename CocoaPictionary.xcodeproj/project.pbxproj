@@ -16,6 +16,10 @@
 		96D25DFB1089A1B2002B9C19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D25DFA1089A1B2002B9C19 /* MainMenu.xib */; };
 		96D25E1C1089ABB0002B9C19 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D25E1B1089ABB0002B9C19 /* AppController.m */; };
 		96D25E351089BF29002B9C19 /* PictionaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D25E341089BF29002B9C19 /* PictionaryModel.m */; };
+		96D2623A1089EE54002B9C19 /* TabletApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D262391089EE54002B9C19 /* TabletApplication.m */; };
+		96D262551089EF17002B9C19 /* DeviceTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D262521089EF17002B9C19 /* DeviceTracker.m */; };
+		96D262561089EF17002B9C19 /* WTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D262541089EF17002B9C19 /* WTView.m */; };
+		96D262681089F067002B9C19 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D262671089F067002B9C19 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,14 @@
 		96D25E1B1089ABB0002B9C19 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		96D25E331089BF29002B9C19 /* PictionaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictionaryModel.h; sourceTree = "<group>"; };
 		96D25E341089BF29002B9C19 /* PictionaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictionaryModel.m; sourceTree = "<group>"; };
+		96D262381089EE54002B9C19 /* TabletApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabletApplication.h; sourceTree = "<group>"; };
+		96D262391089EE54002B9C19 /* TabletApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabletApplication.m; sourceTree = "<group>"; };
+		96D262511089EF17002B9C19 /* DeviceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTracker.h; sourceTree = "<group>"; };
+		96D262521089EF17002B9C19 /* DeviceTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTracker.m; sourceTree = "<group>"; };
+		96D262531089EF17002B9C19 /* WTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTView.h; sourceTree = "<group>"; };
+		96D262541089EF17002B9C19 /* WTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTView.m; sourceTree = "<group>"; };
+		96D262671089F067002B9C19 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Cocoa Pictionary-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				96D262681089F067002B9C19 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +68,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				96D262511089EF17002B9C19 /* DeviceTracker.h */,
+				96D262521089EF17002B9C19 /* DeviceTracker.m */,
+				96D262531089EF17002B9C19 /* WTView.h */,
+				96D262541089EF17002B9C19 /* WTView.m */,
 				96D25DF31089A0DE002B9C19 /* MyViewController.h */,
 				96D25DF41089A0DE002B9C19 /* MyViewController.m */,
 				96D25DF61089A0E7002B9C19 /* MyPoint.h */,
@@ -70,6 +87,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96D262671089F067002B9C19 /* Carbon.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -97,11 +115,13 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
+				96D262371089EE54002B9C19 /* Wacom Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				96D25DFA1089A1B2002B9C19 /* MainMenu.xib */,
+				96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */,
 			);
 			name = CocoaPictionary;
 			sourceTree = "<group>";
@@ -132,6 +152,15 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96D262371089EE54002B9C19 /* Wacom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96D262381089EE54002B9C19 /* TabletApplication.h */,
+				96D262391089EE54002B9C19 /* TabletApplication.m */,
+			);
+			name = "Wacom Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +224,9 @@
 				96D25DF81089A0E7002B9C19 /* MyPoint.m in Sources */,
 				96D25E1C1089ABB0002B9C19 /* AppController.m in Sources */,
 				96D25E351089BF29002B9C19 /* PictionaryModel.m in Sources */,
+				96D2623A1089EE54002B9C19 /* TabletApplication.m in Sources */,
+				96D262551089EF17002B9C19 /* DeviceTracker.m in Sources */,
+				96D262561089EF17002B9C19 /* WTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

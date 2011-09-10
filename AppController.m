@@ -11,7 +11,7 @@
 
 @implementation AppController
 
--(id)awakeFromNib
+-(id)awakeFromNib;
 {
 	NSLog(@"initializing...");  
 
@@ -24,7 +24,7 @@
 }
 
 
--(void)update_ui_from_state
+-(void)update_ui_from_state;
 {
 	switch(current_state) {
 		case STATE_STOP:
@@ -57,9 +57,10 @@
 			break;
 	}
 	[scoreLabel setStringValue:[self generate_score_message]];
+	[statusMessage setStringValue:[self generate_status_message]];
 }
 
-- (NSString *)generate_score_message
+- (NSString *)generate_score_message;
 {
 	NSMutableString *ret = [[NSMutableString alloc] initWithString:@""];
 	for(int i=0; i < [[pictionary get_players] count]; i++) {
@@ -70,45 +71,62 @@
 	return ret;
 }
 
-- (NSString *)generate_status_message
+- (NSString *)generate_status_message;
 {
 	return [NSString stringWithFormat:@"%@ drawing %@", [pictionary get_current_player], [pictionary get_current_category]];
 }
 
-- (void)j_clicked:(id)sender
+
+-(BOOL)player_button:(NSString*)winner;
 {
-	if(![pictionary next_round:@"Jason"]) 
-		return;
+	NSString *player = [pictionary get_current_player];
+	if(![pictionary next_round:winner]) 
+		return FALSE;
 	current_state = STATE_STOP;
 	[self update_ui_from_state];
-	[self save_image];
+	[self save_image:player];
+	return TRUE;
 }
 
-- (void)a_clicked:(id)sender
+- (void)a_clicked:(id)sender;
 {
-	if(![pictionary next_round:@"Alex"])
-		return;
-	current_state = STATE_STOP;
-	[self update_ui_from_state];
-	[self save_image];
+    NSLog(@"JASON CLICKED");
+	[self player_button:@"Jason"];
 }
 
-- (void)m_clicked:(id)sender
+- (void)b_clicked:(id)sender
 {
-	if(![pictionary next_round:@"Matt"])
-		return;
-	current_state = STATE_STOP;
-	[self update_ui_from_state];
-	[self save_image];
+	[self player_button:@"Alex"];
+}
+
+- (void)c_clicked:(id)sender
+{
+	[self player_button:@"Matt"];
+}
+
+- (void)d_clicked:(id)sender
+{
+	[self player_button:@"Alli"];
+}
+
+- (void)e_clicked:(id)sender
+{
+	[self player_button:@"Ganz"];
+}
+
+- (void)f_clicked:(id)sender
+{
+	[self player_button:@"Harry"];
 }
 
 - (void)times_up_clicked:(id)sender
 {
-	[self save_image];
+	[self save_image:[pictionary get_current_player]];
 	[pictionary next_round:nil];
 	current_state = STATE_STOP;
 	NSLog(@"times up");
 	[self update_ui_from_state];
+
 }
 
 - (void)got_it_clicked:(id)sender
@@ -150,7 +168,7 @@
 	timer = [[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(update_timer) userInfo:nil repeats:YES] retain];
 }
 
--(void)save_image
+-(void)save_image:(NSString*)player
 {
 	NSData *data = [drawArea dataWithPDFInsideRect:[drawArea bounds]];
 	NSBitmapImageRep *imageRep = [NSBitmapImageRep
@@ -161,8 +179,9 @@
 	data = [imageRep representationUsingType:NSPNGFileType
 								  properties:propertyDict];
 
-	[data writeToFile:[NSString stringWithFormat:@"/Users/jason/Documents/pictionary/%@-%@.png",[answerField stringValue],[pictionary get_current_player]] atomically:YES];
+	[data writeToFile:[NSString stringWithFormat:@"/Users/jfreidman/Documents/pictionary/%@-%@.png",[answerField stringValue], player] atomically:YES];
 	[drawArea clear];
+	[answerField setStringValue:@""];
 }
 
 @end

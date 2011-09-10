@@ -18,8 +18,9 @@
 		96D25E351089BF29002B9C19 /* PictionaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D25E341089BF29002B9C19 /* PictionaryModel.m */; };
 		96D2623A1089EE54002B9C19 /* TabletApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D262391089EE54002B9C19 /* TabletApplication.m */; };
 		96D262551089EF17002B9C19 /* DeviceTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D262521089EF17002B9C19 /* DeviceTracker.m */; };
-		96D262561089EF17002B9C19 /* WTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D262541089EF17002B9C19 /* WTView.m */; };
 		96D262681089F067002B9C19 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D262671089F067002B9C19 /* Carbon.framework */; };
+		96D263FD108A69D5002B9C19 /* WTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D263FC108A69D5002B9C19 /* WTView.m */; };
+		96D2643F108A7FE2002B9C19 /* WTPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D2643E108A7FE2002B9C19 /* WTPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +47,11 @@
 		96D262391089EE54002B9C19 /* TabletApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabletApplication.m; sourceTree = "<group>"; };
 		96D262511089EF17002B9C19 /* DeviceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTracker.h; sourceTree = "<group>"; };
 		96D262521089EF17002B9C19 /* DeviceTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTracker.m; sourceTree = "<group>"; };
-		96D262531089EF17002B9C19 /* WTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTView.h; sourceTree = "<group>"; };
-		96D262541089EF17002B9C19 /* WTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTView.m; sourceTree = "<group>"; };
 		96D262671089F067002B9C19 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Cocoa Pictionary-Info.plist"; sourceTree = "<group>"; };
+		96D263FB108A69D5002B9C19 /* WTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTView.h; sourceTree = "<group>"; };
+		96D263FC108A69D5002B9C19 /* WTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTView.m; sourceTree = "<group>"; };
+		96D2643D108A7FE2002B9C19 /* WTPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTPoint.h; sourceTree = "<group>"; };
+		96D2643E108A7FE2002B9C19 /* WTPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +70,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				96D2643D108A7FE2002B9C19 /* WTPoint.h */,
+				96D2643E108A7FE2002B9C19 /* WTPoint.m */,
+				96D263FB108A69D5002B9C19 /* WTView.h */,
+				96D263FC108A69D5002B9C19 /* WTView.m */,
 				96D262511089EF17002B9C19 /* DeviceTracker.h */,
 				96D262521089EF17002B9C19 /* DeviceTracker.m */,
-				96D262531089EF17002B9C19 /* WTView.h */,
-				96D262541089EF17002B9C19 /* WTView.m */,
 				96D25DF31089A0DE002B9C19 /* MyViewController.h */,
 				96D25DF41089A0DE002B9C19 /* MyViewController.m */,
 				96D25DF61089A0E7002B9C19 /* MyPoint.h */,
@@ -121,7 +125,6 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				96D25DFA1089A1B2002B9C19 /* MainMenu.xib */,
-				96D262741089F2DD002B9C19 /* Cocoa Pictionary-Info.plist */,
 			);
 			name = CocoaPictionary;
 			sourceTree = "<group>";
@@ -191,7 +194,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CocoaPictionary" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CocoaPictionary */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -226,7 +233,8 @@
 				96D25E351089BF29002B9C19 /* PictionaryModel.m in Sources */,
 				96D2623A1089EE54002B9C19 /* TabletApplication.m in Sources */,
 				96D262551089EF17002B9C19 /* DeviceTracker.m in Sources */,
-				96D262561089EF17002B9C19 /* WTView.m in Sources */,
+				96D263FD108A69D5002B9C19 /* WTView.m in Sources */,
+				96D2643F108A7FE2002B9C19 /* WTPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,26 +294,26 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

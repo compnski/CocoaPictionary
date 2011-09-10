@@ -14,8 +14,8 @@
 -(id)init
 {
 	self = [super init];
-	categories = [[NSArray arrayWithObjects: @"All Play", @"Difficult", @"Action", @"Person/Place/Animal", @"Object", @"Pick",nil] retain];
-	players = [[NSArray arrayWithObjects: @"Jason", @"Alex", @"Matt",nil] retain];
+	categories = [[NSArray arrayWithObjects: @"AP - All Play", @"D - Difficult", @"A - Action", @"P - Person/Place/Animal", @"O - Object", @"? - Pick",nil] retain];
+	players = [[NSArray arrayWithObjects: @"Jason", @"Alex", @"Matt",@"Alli",@"Ganz",@"Harry"] retain];
 //	NSArray *objects = [NSArray arrayWithObjects:[NSNumber numberWithInt:0],[NSNumber numberWithInt:0],[NSNumber numberWithInt:0], nil];
 //	scores= [[NSMutableDictionary dictionaryWithObjects:objects forKeys:players] retain];
 	scores = calloc(sizeof(int), [players count]);
@@ -40,7 +40,7 @@
 	
 	if(winner != nil) {
 		if([players indexOfObject:winner] == current_player_idx) {
-			NSLog(@"Winner can't win!");
+			NSLog(@"Player can't win!");
 			return false;
 		}
 		scores[[players indexOfObject:winner]] += 2;

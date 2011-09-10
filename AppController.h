@@ -11,7 +11,7 @@
 #import "MyViewController.h"
 #import "WTView.h"
 
-#define GAME_LENGTH 5
+#define GAME_LENGTH 60
 typedef enum appState
 	{
 		STATE_STOP, STATE_DRAWING, STATE_GOT_ANSWER, STATE_TIME_UP
@@ -19,7 +19,7 @@ typedef enum appState
 
 
 @interface AppController : NSObject {
-	IBOutlet WTView *drawArea;
+	IBOutlet NSView *drawArea;
 	IBOutlet NSTextField *timerLabel;
 	IBOutlet NSTextField *statusMessage;
 	IBOutlet NSTextField *answerField;
@@ -37,9 +37,13 @@ typedef enum appState
 }
 
 - (IBAction)got_it_clicked:(id)sender;
-- (IBAction)j_clicked:(id)sender;
 - (IBAction)a_clicked:(id)sender;
-- (IBAction)m_clicked:(id)sender;
+- (IBAction)b_clicked:(id)sender;
+- (IBAction)c_clicked:(id)sender;
+- (IBAction)d_clicked:(id)sender;
+- (IBAction)e_clicked:(id)sender;
+- (IBAction)f_clicked:(id)sender;
+
 - (IBAction)times_up_clicked:(id)sender;
 - (IBAction)start_clicked:(id)sender;
 
@@ -48,7 +52,7 @@ typedef enum appState
 -(void)update_timer;
 -(void)reset_timer;
 -(void)stop_timer;
--(void)save_image;
+-(void)save_image:(NSString*)player;
 -(NSString *)generate_status_message;
 -(NSString *)generate_score_message;
 

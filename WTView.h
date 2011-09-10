@@ -34,8 +34,12 @@ COPYRIGHT
     BOOL		mCaptureMouseMoves;
     BOOL		mUpdateStatsDuringDrag;
     
-    
+    NSMutableArray  * myMutaryOfPoints;
+	NSMutableArray  * myMutaryOfBrushStrokes;
+
+	
     //Private
+	BOOL		allowDrawing;
     BOOL		mIsErasing;
     NSPoint		mLastLoc;
 }
@@ -68,6 +72,8 @@ COPYRIGHT
 - (void) handleProximity:(NSNotification *)proxNotice;
 - (void) drawCurrentDataFromEvent:(NSEvent *)theEvent;
 
+- (void) clear;
+//- (void) allowDrawing:(BOOL)allow:
 @end
 
 extern NSString *WTViewUpdatedNotification;

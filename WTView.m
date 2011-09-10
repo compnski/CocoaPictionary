@@ -17,6 +17,7 @@ COPYRIGHT
 #import <Carbon/Carbon.h>
 #import "WTView.h"
 #import "TabletApplication.h"
+#import "WTPoint.h"
 
 NSString *WTViewUpdatedNotification = @"WTViewStatsUpdatedNotification";
 
@@ -33,8 +34,12 @@ NSString *WTViewUpdatedNotification = @"WTViewStatsUpdatedNotification";
         mAdjustOpacity = NO;
         mAdjustSize = YES;
         mCaptureMouseMoves = NO;
+		allowDrawing = YES;
         mUpdateStatsDuringDrag = YES;
         knownDevices = [[DeviceTracker alloc] init];
+		[[NSColor whiteColor] set];
+		NSRectFill([self bounds]);
+		myMutaryOfBrushStrokes = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -105,6 +110,9 @@ NSString *WTViewUpdatedNotification = @"WTViewStatsUpdatedNotification";
 	// Drawing code during a Drag event to follow.
 	mLastLoc = [self convertPoint:[theEvent locationInWindow]
 				  fromView:nil];
+	myMutaryOfPoints = [[NSMutableArray alloc]init];
+	[myMutaryOfBrushStrokes addObject:myMutaryOfPoints];
+
 				  
 	// Updating the text display of the stats can take up a lot of time.
 	// This can lead to less smooth curves being drawn. Toggle the
@@ -443,12 +451,12 @@ NSString *WTViewUpdatedNotification = @"WTViewStatsUpdatedNotification";
 //
 - (void) drawCurrentDataFromEvent:(NSEvent *)theEvent
 {
-	NSBezierPath *path = [NSBezierPath bezierPath];
 	NSPoint currentLoc;
 	float pressure;
 	float opacity;
 	float brushSize;
 
+		
 	if([theEvent type] == NSTabletPoint)
 	{
 		currentLoc = mLastLoc;
@@ -479,51 +487,23 @@ NSString *WTViewUpdatedNotification = @"WTViewStatsUpdatedNotification";
 		opacity = 1.0;
 	}
 
-	// Don't forget to lockFocus when drawing to a view without
-	// being inside - (void) drawRect;
-	[self lockFocus];
-		if ( mIsErasing )
-		{
-			[[[NSColor whiteColor] colorWithAlphaComponent:opacity] set];
-		}
-		else
-		{
-			Transducer *currentDevice = [knownDevices currentDevice];
-
-			if(currentDevice != NULL)
-			{
-				[[[currentDevice color] colorWithAlphaComponent:opacity] set];
-			}
-			else
-			{
-				[[[NSColor blackColor] colorWithAlphaComponent:opacity] set];
-			}
-		}
-
-		[path setLineWidth:brushSize];
-		[path setLineCapStyle:NSRoundLineCapStyle];
-
-		[path moveToPoint:mLastLoc];
-		
-		if(NSEqualPoints(mLastLoc,currentLoc))
-		{
-			[path appendBezierPathWithOvalInRect:
-				NSMakeRect(	currentLoc.x - brushSize/2.0f,
-							currentLoc.y - brushSize/2.0f,
-							brushSize,brushSize)];
-			[path fill];
-		}
-		else
-		{
-			[path lineToPoint:currentLoc];
-			[path stroke];
-		}
-	[self unlockFocus];
+	WTPoint *wtpoint = [[[WTPoint alloc] initWithArgs:opacity mIsErasing:mIsErasing brushSize:brushSize currentLoc:currentLoc] retain];
+	[myMutaryOfPoints addObject:wtpoint];
 
 	mLastLoc = currentLoc;
+	[self setNeedsDisplay:YES];
+
 }
 
 
+
+- (void)new_stroke:(CGContextRef)tvarCGContextRef brushSize:(float)brushSize r:(int)r g:(int)g b:(int)b a:(int)a;
+{
+	CGContextDrawPath(tvarCGContextRef,kCGPathStroke);
+	CGContextBeginPath(tvarCGContextRef);
+	CGContextSetLineWidth(tvarCGContextRef, brushSize );
+	CGContextSetRGBStrokeColor(tvarCGContextRef,r,g,b,a);
+}
 
 ///////////////////////////////////////////////////////////////////////////
 // - (void)drawRect:(NSRect)rect
@@ -538,10 +518,86 @@ NSString *WTViewUpdatedNotification = @"WTViewStatsUpdatedNotification";
    // You do not need to call [self lockFocus] here. Callers of this
    // function are responsible for locking and unlocking the focus for
    // this required method. See the Apple docs on NSView.
-   [[NSColor whiteColor] set];
-   NSRectFill([self bounds]);
+	[[NSColor whiteColor] set];
+	NSRectFill([self bounds]);
+
+	if([myMutaryOfPoints count] == 0)
+		return;
+	
+	NSGraphicsContext * tvarNSGraphicsContext = [NSGraphicsContext currentContext];
+	CGContextRef      tvarCGContextRef     = (CGContextRef) [tvarNSGraphicsContext graphicsPort];
+
+	NSUInteger tvarIntNumberOfStrokes = [myMutaryOfBrushStrokes count];
+	
+	NSUInteger i;
+	for (i = 0; i < tvarIntNumberOfStrokes; i++) {
+		
+		
+		myMutaryOfPoints = [myMutaryOfBrushStrokes objectAtIndex:i];
+		
+		NSUInteger tvarIntNumberOfPoints = [myMutaryOfPoints count];    // always >= 2
+		//MyPoint * tvarLastPointObj      = [myMutaryOfPoints objectAtIndex:0];
+		NSPoint local_mLastLoc = [[myMutaryOfPoints objectAtIndex:0] currentLoc];
+		float brushSize = 3.0;
+		float eraserSize = 10.0;
+		
+		if ( [[myMutaryOfPoints objectAtIndex:0] mIsErasing] ) {
+			[self new_stroke:tvarCGContextRef brushSize:brushSize r:255 g:255 b:255 a:255];
+		} else {
+			[self new_stroke:tvarCGContextRef brushSize:eraserSize r:0 g:0 b:0 a:255];
+		}
+		
+//		[self new_stroke:tvarCGContextRef brushSize:3.0 r:0 g:0 b:0 a:255];
+		CGContextMoveToPoint(tvarCGContextRef,local_mLastLoc.x,local_mLastLoc.y);
+		NSUInteger j;
+		for (j = 1; j < tvarIntNumberOfPoints; j++) {  // note the index starts at 1
+			WTPoint * point = [myMutaryOfPoints objectAtIndex:j];
+			//float brushSize = [point brushSize];
+			//NSPoint mLastLoc = point.mLastLoc;
+			NSPoint currentLoc = [point currentLoc];
+			CGContextSetLineWidth(tvarCGContextRef, (brushSize) );
+			// Don't forget to lockFocus when drawing to a view without
+			// being inside - (void) drawRect;
+	
+			CGContextAddLineToPoint(tvarCGContextRef,currentLoc.x,currentLoc.y);	
+		} // end for
+		
+		CGContextDrawPath(tvarCGContextRef,kCGPathStroke);
+		
+	} // end for
+
+	/*
+		[path setLineWidth:brushSize];
+		[path setLineCapStyle:NSRoundLineCapStyle];
+		
+		[path moveToPoint:local_mLastLoc];
+		
+		if(NSEqualPoints(local_mLastLoc,currentLoc))
+		{
+			[path appendBezierPathWithOvalInRect:
+			 NSMakeRect(	currentLoc.x - brushSize/2.0f,
+						currentLoc.y - brushSize/2.0f,
+						brushSize,brushSize)];
+			[path fill];
+		}
+		else
+		{
+			[path lineToPoint:currentLoc];
+			[path stroke];
+		}
+		local_mLastLoc = currentLoc;
+	 */
+	
 }
 
+
+- (void) clear
+{
+	[myMutaryOfBrushStrokes removeAllObjects];
+	[myMutaryOfPoints removeAllObjects];
+	[self setNeedsDisplay:YES];
+
+}
 
 
 ///////////////////////////////////////////////////////////////////////////

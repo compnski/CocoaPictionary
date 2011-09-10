@@ -8,10 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 #import "MyPoint.h"
+#import <AppKit/AppKit.h>
+#import "DeviceTracker.h"
 
 @interface MyViewController : NSView {
     NSMutableArray  * myMutaryOfBrushStrokes;
     NSMutableArray  * myMutaryOfPoints;
+	float m_pressure;
+	BOOL is_eraser;
 }
 
 - (float)randVar;

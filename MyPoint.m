@@ -9,7 +9,7 @@
 
 @implementation MyPoint
 
-- (id) initWithNSPoint:(NSPoint)pNSPoint;
+- (id) initWithNSPoint:(NSPoint)pNSPoint is_eraser:(BOOL)eraser;
 {
     if ((self = [super init]) == nil) {
         return self;
@@ -17,7 +17,7 @@
 	
     myNSPoint.x = pNSPoint.x;
     myNSPoint.y = pNSPoint.y;
-    
+    is_erase = eraser;
     return self;
 	
 } // end initWithNSPoint
@@ -36,6 +36,12 @@
 {
     return myNSPoint.y;
 } // end y
-
-
+-(BOOL)is_erase;
+{
+	return is_erase;
+}
+-(float)pressure;
+{
+	return 0;	
+}
 @end

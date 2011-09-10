@@ -5,8 +5,8 @@
 //  Created by Jason on 10/16/09.
 //  Copyright 2009 TokBox Inc.. All rights reserved.
 //
-
-#import "MyViewController.h"
+#import <Carbon/Carbon.h>
+#import "TabletApplication.h"
 #import "MyViewController.h"
 
 @implementation MyViewController
@@ -26,6 +26,13 @@
 } // end initWithFrame
 
 
+-(void) awakeFromNib
+{
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(handleProximity:)
+												 name:kProximityNotification
+											   object:nil];
+}	
 - (void)clear {
 	[myMutaryOfBrushStrokes removeAllObjects];
 	[myMutaryOfPoints removeAllObjects];
@@ -50,9 +57,10 @@
 
 -(void)mouseDragged:(NSEvent *)pTheEvent {
 	
+	BOOL eraser = false;
 	NSPoint tvarMousePointInWindow = [pTheEvent locationInWindow];
 	NSPoint tvarMousePointInView   = [self convertPoint:tvarMousePointInWindow fromView:nil];
-	MyPoint * tvarMyPointObj      = [[MyPoint alloc]initWithNSPoint:tvarMousePointInView];
+	MyPoint * tvarMyPointObj      = [[MyPoint alloc]initWithNSPoint:tvarMousePointInView is_eraser:eraser];
 	
 	[myMutaryOfPoints addObject:tvarMyPointObj];   
 	
@@ -64,9 +72,11 @@
 
 -(void)mouseUp:(NSEvent *)pTheEvent {
 	
+	bool eraser=false;
 	NSPoint tvarMousePointInWindow = [pTheEvent locationInWindow];
 	NSPoint tvarMousePointInView   = [self convertPoint:tvarMousePointInWindow fromView:nil];
-	MyPoint * tvarMyPointObj      = [[MyPoint alloc]initWithNSPoint:tvarMousePointInView];
+	MyPoint * tvarMyPointObj      = [[MyPoint alloc]initWithNSPoint:tvarMousePointInView is_eraser:eraser];
+	
 	
 	[myMutaryOfPoints addObject:tvarMyPointObj];	
 	

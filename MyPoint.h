@@ -10,10 +10,14 @@
 
 @interface MyPoint : NSObject {
     NSPoint myNSPoint;
+	BOOL is_erase;
+	float pressure;
 }
-- (id) initWithNSPoint:(NSPoint)pNSPoint;
+- (id) initWithNSPoint:(NSPoint)pNSPoint is_eraser:(BOOL)is_erase;
 - (NSPoint) myNSPoint;
 - (float)x;
 - (float)y;
+- (BOOL)is_erase;
+- (float)pressure;
 
 @end
